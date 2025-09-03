@@ -8,6 +8,6 @@ export default defineConfig({
   plugins: [react(), tailwindcss(),],
   base: '/knot/',
   build: {
-    outDir: 'docs',     // 👈 puts built files in /docs so GitHub Pages can serve them
+    outDir: 'dist',
   }
 })
